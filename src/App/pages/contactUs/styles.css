@@ -1,0 +1,35 @@
+.heading {
+  font-size: xx-large;
+  color: beige;
+}
+
+.contactUS {
+  width: 90%;
+  margin-top: 20vh;
+  margin-inline: auto;
+  background-color: rgb(25, 39, 58);
+  padding: 2vw;
+  color: aliceblue;
+  border-radius: 2%;
+  box-shadow: 20%;
+  z-index: 100%;
+}
+
+.formWrapper {
+  display: grid;
+  gap: 1vw;
+  margin: auto;
+  font-size: larger;
+  color: beige;
+}
+
+@media screen and (min-width: 480px) {
+    .contactUS {
+        width: 70vw;
+      }
+  }
+  @media screen and (min-width: 700px) {
+    .contactUS {
+        width: 30vw;
+      }
+  }

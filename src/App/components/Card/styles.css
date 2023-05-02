@@ -1,0 +1,30 @@
+.cardWrapper {
+  width: 90%;
+  /* height: 55vh; */
+  background-color: rgb(67, 29, 134);
+  border-radius: 6%;
+  color: aliceblue;
+  font-size: x-large;
+  padding: 4%;
+  margin-inline: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-inline: auto;
+}
+
+.imagediv {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 480px) {
+  .cardWrapper {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .cardWrapper {
+    width: 20vw;
+  }
+}

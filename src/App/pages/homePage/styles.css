@@ -1,0 +1,46 @@
+.hedingDiv {
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.cardsMapDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 70vw;
+  margin-inline: auto;
+}
+
+.notFoundText {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+  margin-top: 20;
+  margin-bottom: 20;
+}
+
+.trendingDiv {
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.cardsGrid {
+  display: grid;
+}
+
+@media screen and (min-width: 480px) {
+  .cardsMapDiv {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+@media screen and (min-width: 700px) {
+  .cardsMapDiv {
+    grid-template-columns: repeat(3, 3fr);
+  }
+}

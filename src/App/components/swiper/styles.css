@@ -1,0 +1,26 @@
+.swiperWrap {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-items: center;
+  margin-top: 12vh;
+}
+.SwiperSlider {
+  width: 100vw;
+  max-height: 90vh;
+}
+
+.images {
+  width: 100vw;
+  max-height: 90vh;
+  object-fit: fill;
+  margin-inline: auto;
+  border-radius: 2%;
+}
+
+.vehicle {
+  position: absolute;
+  font-size: xx-large;
+  color: brown;
+  top: 2;
+}

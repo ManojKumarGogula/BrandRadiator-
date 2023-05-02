@@ -1,0 +1,50 @@
+.DetailsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vehicleName {
+  font-size: xx-large;
+  color: aliceblue;
+  font-weight: 700;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  /* height: 60vh; */
+  width: 80%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  background-color: rgb(35, 61, 77);
+  border-radius: 3vw;
+  margin: 3vw;
+  padding: 2vw;
+}
+/* .imageDiv {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5vw;
+} */
+.listDiv {
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 500;
+  width: 80vw;
+  margin-inline: auto;
+  padding-top: 3vh;
+  list-style-type: circle;
+}
+
+@media screen and (min-width: 480px) {
+  .imageDiv {
+    width: 60%;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 700px) {
+  .imageDiv {
+    width: 60%;
+    margin-inline: auto;
+
+  }
+}

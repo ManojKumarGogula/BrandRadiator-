@@ -1,0 +1,65 @@
+.signInwrapper {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 700;
+}
+.signImage {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar {
+  width: 3vw;
+  border-radius: 2vw;
+  display: none;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+@media screen and (min-width: 480px) {
+  .signInwrapper {
+    flex-direction: row;
+  }
+  .signImage {
+    width: 70vw;
+    height: 100vh;
+  }
+  .formgroup {
+    width: 30vw;
+    height: 100vh;
+  }
+  .avatar {
+    display: block;
+  }
+}
+@media screen and (min-width: 700px) {
+  .signInwrapper {
+    flex-direction: row;
+  }
+  .signImage {
+    width: 70vw;
+    height: 100vh;
+  }
+  .formgroup {
+    width: 30vw;
+    height: 100vh;
+  }
+  .avatar {
+    display: block;
+  }
+}

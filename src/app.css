@@ -1,0 +1,42 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  font-size: 12px;
+  background-color: #161929;
+  color: var(--color-primaryText);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+button {
+  background-color: #3148a3; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 3vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 3vw;
+}
+
+button:hover {
+  background-color: rgb(43, 107, 41);
+  color: aliceblue;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgb(51, 35, 125);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgb(67, 155, 49);
+}
