@@ -18,6 +18,7 @@
   font-size: larger;
   list-style-type: none;
   gap: 2vw;
+  margin: 1vw;
 }
 a {
   text-decoration: wavy;

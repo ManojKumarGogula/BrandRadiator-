@@ -3,6 +3,7 @@ import TextField from "@mui/material/TextField";
 import "./styles.css";
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
+
 function ContactUs() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -42,6 +43,7 @@ function ContactUs() {
     );
   };
   return (
+    <>
     <div className="contactUS" style={{ aspectRatio: 1 / 1 }}>
       {renderToast()}
       <div className="heading">ContactUs</div>
@@ -83,6 +85,7 @@ function ContactUs() {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
 }
 

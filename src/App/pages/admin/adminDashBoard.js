@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
+
 const Admin = () => {
   const adminData = JSON.parse(localStorage.getItem("FORMDATA"));
   const [index, setIndex] = useState();

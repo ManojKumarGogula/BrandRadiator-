@@ -1,0 +1,8 @@
+.layoutWrapper{
+    width: 100%;
+}
+.footerWrapperDiv {
+    /* width: 100vw; */
+    margin-bottom: 0%;
+    margin-top: 2vh;
+}

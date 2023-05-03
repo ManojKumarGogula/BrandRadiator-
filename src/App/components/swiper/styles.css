@@ -25,3 +25,9 @@
   color: brown;
   top: 2;
 }
+.vehicleName {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  text-shadow: 0 0 3px #0c0202;
+}

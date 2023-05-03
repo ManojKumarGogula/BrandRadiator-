@@ -48,6 +48,7 @@ const SwiperCarousel = (props) => {
               style={{ aspectRatio: 16 / 9 }}
               className="images"
             />
+            <span className="vehicleName">{vehicle?.name}</span>
           </SwiperSlide>
         ))}
       </Swiper>

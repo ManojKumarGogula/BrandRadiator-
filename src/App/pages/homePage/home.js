@@ -65,7 +65,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Header />
       <Outlet />
         <Swiper  />
       <SearchBox
@@ -85,7 +84,6 @@ const HomePage = () => {
           showOnIE={false}
         />
       </div>
-      <Footer />
     </div>
   );
 };
