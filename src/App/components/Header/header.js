@@ -19,11 +19,14 @@ const Header = () => {
       <div class="container">
 
         <nav class="navbar">
+          <div className="imagewrapper">
         <img
           src="https://seeklogo.com/images/L/line-art-car-logo-99DBB62CB3-seeklogo.com.png"
           alt="logo"
           className="navImg"
         />
+        <span>EvZone</span>
+        </div>
           <ul class="nav-menu" ref={navRef}>
             <li class="nav-item">
               <a href="/" class="nav-link">

@@ -70,6 +70,13 @@ a{
 }
 .navImg{
   width: 10vw;
+  margin-right: 1vw;
+}
+.imagewrapper{
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 @media(max-width:1024px){
   .hamburger{
