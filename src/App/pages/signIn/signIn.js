@@ -11,6 +11,7 @@ function SignInForm() {
     console.log("Email:", email);
     console.log("Password:", password);
     // You can replace the console logs with your own logic to handle sign-in
+
     navigate("/admin");
   };
   const renderForm = () => {
@@ -30,6 +31,8 @@ function SignInForm() {
             id="filled-basic"
             variant="filled"
             onChange={(event) => setEmail(event.target.value)}
+            sx={{ input: { color: 'aliceblue' } }}
+
           />
         </div>
         <div className="group">
@@ -39,6 +42,7 @@ function SignInForm() {
             variant="filled"
             type="password"
             value={password}
+            sx={{ input: { color: 'aliceblue' } }}
             onChange={(event) => setPassword(event.target.value)}
           />
         </div>

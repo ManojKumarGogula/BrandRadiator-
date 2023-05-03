@@ -4,11 +4,10 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./App/pages/homePage/home";
 import DetailsScreen from "./App/pages/details/Details";
 import ContactUs from "./App/pages/contactUs";
-import Team from "./App/pages/team";
 import SignInPage from "./App/pages/signIn";
 import Admin from "./App/pages/admin";
 import LayOut from "./layout/AppLayOut";
-
+import About from "./App/pages/about/Details";
 const routes = [
   {
     path: "/",
@@ -24,7 +23,7 @@ const routes = [
     element: LayOut(<ContactUs />),
     errorElement: <HomePage />,
   },
-  { path: "team", element: LayOut(<Team />), errorElement: <HomePage /> },
+  { path: "about", element: LayOut(<About />), errorElement: <HomePage /> },
   {
     path: "signIn",
     element: <SignInPage />,

@@ -56,11 +56,12 @@ function ContactUs() {
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          className="TextField"
+          sx={{ input: { color: 'aliceblue' } }}
         />
 
         <label htmlFor="email">Email:</label>
         <TextField
-          error={false}
           id="filled-basic"
           label="Email"
           variant="filled"
@@ -69,11 +70,11 @@ function ContactUs() {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-        />
+          sx={{ input: { color: 'aliceblue' } }}
 
+        />
         <label htmlFor="message">Message:</label>
         <TextField
-          error={false}
           id="filled-basic"
           label="Message"
           variant="filled"
@@ -81,6 +82,7 @@ function ContactUs() {
           helperText="Describe your message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          sx={{ input: { color: 'aliceblue' } }}
         />
         <button type="submit">Submit</button>
       </form>

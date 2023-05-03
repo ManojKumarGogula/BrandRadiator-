@@ -78,7 +78,7 @@ const HomePage = () => {
       {renderCardsContent()}
       <div>
         <FloatingWhatsApp
-          phone={"7032930354"}
+          phone={"9391065861"}
           zIndex={999}
           size={50}
           showOnIE={false}
