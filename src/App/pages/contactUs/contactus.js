@@ -1,6 +1,5 @@
 import React, { useEffect, useState,forwardRef } from "react";
 import TextField from "@mui/material/TextField";
-import Header from "../../components/Header/header";
 import "./styles.css";
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
@@ -44,7 +43,6 @@ function ContactUs() {
   };
   return (
     <div className="contactUS" style={{ aspectRatio: 1 / 1 }}>
-      <Header />
       {renderToast()}
       <div className="heading">ContactUs</div>
       <form onSubmit={handleSubmit} className="formWrapper">

@@ -18,16 +18,22 @@ const Admin = () => {
     const data = adminData[index];
     return (
       <div className="cardv2">
-        <div className="labelWrap"> 
-          <span className="label" style={{marginRight:"42px"}}>Name:</span>
+        <div className="labelWrap">
+          <span className="label" style={{ marginRight: "42px" }}>
+            Name:
+          </span>
           {data.name}
         </div>
         <div className="labelWrap">
-          <span className="label" style={{marginRight:"44px"}}>Email:</span>
+          <span className="label" style={{ marginRight: "44px" }}>
+            Email:
+          </span>
           {data.email}
         </div>
         <div className="labelWrap">
-          <span className="label" style={{marginRight:"20px"}}>Message:</span>
+          <span className="label" style={{ marginRight: "20px" }}>
+            Message:
+          </span>
           {data.message}
         </div>
       </div>
@@ -40,14 +46,17 @@ const Admin = () => {
         <div className="row1">
           <div className="headingText">Name</div>
           <div className="listDiv">
-            {adminData &&
+            {adminData ? (
               adminData.map((item, index) => {
                 return (
                   <div className="chip" onClick={() => setIndex(`${index}`)}>
                     {item.name}
                   </div>
                 );
-              })}
+              })
+            ) : (
+              <div>!Opps... No data </div>
+            )}
           </div>
         </div>
         {/* <div className="divider"></div> */}
