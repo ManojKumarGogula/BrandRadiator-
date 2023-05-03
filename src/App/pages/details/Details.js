@@ -13,7 +13,7 @@ const DetailsScreen = () => {
 
   return (
     <div className="DetailsDiv">
-      <div className="vehicleName">{state.name}</div>
+      <div className="vehicleNames">{state.name}</div>
       <div className="cardDetails">
         <img
           src={state.img}

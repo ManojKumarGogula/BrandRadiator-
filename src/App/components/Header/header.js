@@ -22,7 +22,7 @@ const Header = () => {
         <img
           src="https://seeklogo.com/images/L/line-art-car-logo-99DBB62CB3-seeklogo.com.png"
           alt="logo"
-          style={{ width: "10vw" }}
+          className="navImg"
         />
           <ul class="nav-menu" ref={navRef}>
             <li class="nav-item">

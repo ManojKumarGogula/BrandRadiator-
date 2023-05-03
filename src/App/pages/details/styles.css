@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 12vh;
 }
-.vehicleName {
+.vehicleNames {
   font-size: xx-large;
   color: aliceblue;
   font-weight: 700;

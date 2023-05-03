@@ -68,7 +68,9 @@ a{
   transition: all 0.3s ease;
   background-color: white;
 }
-
+.navImg{
+  width: 10vw;
+}
 @media(max-width:1024px){
   .hamburger{
     display: block;
@@ -82,6 +84,9 @@ a{
   }
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+  }
+  .navImg{
+    width: 30vw;
   }
 
   .nav-menu{
